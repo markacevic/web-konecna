@@ -1,0 +1,142 @@
+
+.menu {
+    overflow: hidden; 
+    background: rgba(0, 150, 0, 0.3);
+      }
+
+.menu a { 
+    float: left;
+    color: gray; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration:none; }      
+        
+.menu a:hover { 
+    background:rgba(25, 0, 100, 0.1);
+     color: black;}
+
+.menu a.active { background-color:rgba(10, 100, 100, 0.8);
+                  color: white;
+                 }
+
+body { margin: 0;
+        font-family: Arial, Helvetica, sans-serif; 
+       }
+
+.img{
+   margin: 80px;
+   -webkit-transition: -webkit-transform 4s; 
+   -moz-transition: -moz-transform 4s; 
+   -o-transition: -o-transform 4s; 
+   transition: transform 4s;
+}
+
+.img:hover{
+   -webkit-transform: rotate(360deg) scale(2, 2); 
+   -moz-transform: rotate(360deg) scale(2, 2);
+   -o-transform: rotate(360deg) scale(2, 2); 
+   transform: rotate(360deg) scale(2, 2);
+}
+
+.cv    { 
+    position: absolute;
+    top: 127px;
+    left: 250px;
+    z-index: 1;
+    font-size: 15pt;
+    font-family:'Times New Roman',tahoma, geneva, sans-serif;
+    color:seagreen }
+
+.invisible {
+display: none;
+}
+
+.inline {
+        display:inline-block;
+}
+
+details {
+        background: rgb(219, 115, 115); 
+        color:white; 
+        text-align: center; 
+        border-style: double;
+    }
+    
+details details {
+        background: rgb(238, 154, 154);  
+    }
+    
+details:hover{ 
+        color:black;
+        border-style:dotted;
+    }
+    
+figure {
+        background: rgb(175, 161, 161) ;
+    }
+    
+figure:hover {
+        background:  rgb(146, 140, 140);          
+    }
+
+.podelba{
+        width: 50%;
+        position: relative;
+        left: 25%;
+    }
+
+input {
+        font-size: small; font-family: 'Times New Roman', Times, serif; color:darkslategrey; 
+        background-color: rgb(255, 255, 255); border:rgb(202, 189, 201); border-radius: 5cm;
+        }
+    
+.special { 
+        font-family: 'Times New Roman', Times, serif; font-size: x-small; font-style: italic; color: black;
+    }
+
+button { 
+        background: rgb(22, 22, 22); color: rgb(247, 243, 243); border: rgb(0, 0, 0);border-radius: 5cm; 
+    }
+
+article {
+        margin: .3rem;
+        padding: .5rem;
+        background-color: rgba(33, 138, 138,1);
+        font: 1rem 'Times New Roman', sans-serif;
+    }
+
+.article > h1,
+.post {
+        margin: .3rem;
+        padding: .3rem;
+        font-size: 1.2rem;
+        background: white;
+    }
+    
+.post > h2,
+.post> p {
+        margin: .3rem;
+       font-size: 1rem;
+        margin-right:.2rem;
+        text-align: justify;
+    }              
+    
+.floated { 
+    padding: .2em;
+    margin-left: 0;
+    margin-bottom: .1em;
+    float:left ;;
+    text-align: justify;
+    width: 10%; }
+
+footer { 
+    font-size:x-small; 
+    font-family: Arial, Helvetica, sans-serif; 
+    color: grey;}
+    
+body { 
+    background: rgba(43, 156, 90,0.4);}
+
+.preview img{
+        display: none;
+    }
